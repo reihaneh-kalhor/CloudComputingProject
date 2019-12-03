@@ -1,4 +1,3 @@
-const Twitter = require('./TwitterFunctionalities.js')
+const twitter = require('./TwitterFunctionalities')
 
-const PORT = process.env.PORT;
-console.log(`Your port is ${PORT}`);
+console.log(twitter.client)
